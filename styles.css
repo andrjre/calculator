@@ -61,4 +61,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all ease-in-out .2s;
+}
+
+.button:hover{
+    background-color: grey;
+    transform: scale(1.1);
+    color:white
 }
