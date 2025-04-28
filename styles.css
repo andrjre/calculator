@@ -53,7 +53,12 @@ body{
     justify-content: center;
 }
 
-.button{
+#row5{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
     border: solid black 2px;
     border-radius: 20px;
     width:70px;
@@ -64,8 +69,9 @@ body{
     transition: all ease-in-out .2s;
 }
 
-.button:hover{
+.btn:hover{
     background-color: grey;
     transform: scale(1.1);
-    color:white
+    color:white;
+    cursor:pointer;
 }
