@@ -5,7 +5,7 @@ let clear = document.querySelector("#clear")
 
 btns.forEach(function(btns){
     btns.addEventListener("click", function(){
-        let inputs = [btns.id]
+        let inputs = [String(btns.id)]
         console.log(inputs)
         screen.textContent = btns.id
     })
